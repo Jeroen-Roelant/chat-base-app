@@ -14,7 +14,7 @@ spec:
       containers:
       - name: nginx
         imagePullPolicy: IfNotPresent
-        image: jeroenroelant/jenkins:frontend
+        image: jeroenroelant/jenkins_lab:frontend
         ports:
           - containerPort: 80
             name: http-web-svc
